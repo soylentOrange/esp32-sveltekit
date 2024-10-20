@@ -12,7 +12,7 @@ By default, the soft-AP offers a network with:
 
 ## Users
 
-By default, a gueat and an admin user are defined. 
+By default, a guest and an admin user are defined. 
 The credentials are simply:
 
 - guest/guest
