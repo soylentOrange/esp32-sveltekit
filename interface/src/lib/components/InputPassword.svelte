@@ -12,7 +12,7 @@
 <div class="relative">
 	<input {type} class="input input-bordered w-full" {value} on:input={handleInput} {id} />
 	<div class="absolute inset-y-0 right-0 flex items-center pr-1">
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions-->
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="text-base-content/50 h-6 {show ? 'block' : 'hidden'}"
@@ -34,7 +34,7 @@
 			<path d="M3 3l18 18" />
 		</svg>
 
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions-->
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="text-base-content/50 h-6 {show ? 'hidden' : 'block'}"

@@ -147,7 +147,7 @@
 {/if}
 
 <Modals>
-	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions-->
 	<div
 		slot="backdrop"
 		class="fixed inset-0 z-40 max-h-full max-w-full bg-black/20 backdrop-blur"

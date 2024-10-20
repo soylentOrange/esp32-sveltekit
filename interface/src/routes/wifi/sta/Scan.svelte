@@ -109,7 +109,7 @@
 					<ul class="menu">
 						{#each listOfNetworks as network, i}
 							<li>
-								<!-- svelte-ignore a11y-click-events-have-key-events -->
+								<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions-->
 								<div
 									class="bg-base-200 rounded-btn my-1 flex items-center space-x-3 hover:scale-[1.02] active:scale-[0.98]"
 									on:click={() => {

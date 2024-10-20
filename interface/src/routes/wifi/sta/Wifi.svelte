@@ -496,7 +496,7 @@
 							on:drop={onDrop}
 							let:index
 						>
-							<!-- svelte-ignore a11y-click-events-have-key-events -->
+							<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions-->
 							<div class="rounded-box bg-base-100 flex items-center space-x-3 px-4 py-2">
 								<div class="mask mask-hexagon bg-primary h-auto w-10 shrink-0">
 									<Router class="text-primary-content h-auto w-full scale-75" />
