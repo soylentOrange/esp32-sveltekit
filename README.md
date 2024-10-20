@@ -10,8 +10,10 @@ A simple ESP32 based IoT project with a feature-rich, beautiful, and responsive 
 
 ## Hardware
 
+<div align="center">
+  <img style="height:320px" src="docs/media/boards/wemos_D1_Mini_ESP32/wemos_D1_Mini_ESP32_pinout.png">
+</div>
 <div style="flex">
-<img src="docs/media/boards/wemos_D1_Mini_ESP32/wemos_D1_Mini_ESP32.png" style="height:320px"> 
 <img src="docs/media/boards/wemos_D1_Mini_ESP32/wemos_D1_Mini_ESP32_pinout.png" style="height:320px"> 
 </div>
 
