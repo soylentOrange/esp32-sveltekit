@@ -21,5 +21,5 @@ The credentials are simply:
 The JWT secret used to sign authentication tokens is generated randomly. You can look look it up in the users menu:
 
 <figure markdown="span">
-  ![Screenshot_users](media/Screenshot_light.png){ height="320" width="490" }
+  ![Screenshot_users](media/Screenshot_users.png){ height="320" width="490" }
 </figure>
