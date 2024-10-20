@@ -40,7 +40,7 @@
 	});
 
 	const addEventListeners = () => {
-		socket.on('open', handleOpen);
+		//socket.on('open', handleOpen);
 		socket.on('close', handleClose);
 		socket.on('error', handleError);
 		socket.on('rssi', handleNetworkStatus);
@@ -52,7 +52,7 @@
 
 	const removeEventListeners = () => {
 		socket.off('analytics', handleAnalytics);
-		socket.off('open', handleOpen);
+		//socket.off('open', handleOpen);
 		socket.off('close', handleClose);
 		socket.off('rssi', handleNetworkStatus);
 		socket.off('notification', handleNotification);
@@ -77,12 +77,12 @@
 		}
 	}
 
-	const handleOpen = () => {
-		notifications.success('Connection to device established', 5000);
-	};
+	// const handleOpen = () => {
+	// 	notifications.success('Connection to device established', 5000);
+	// };
 
 	const handleClose = () => {
-		notifications.error('Connection to device lost', 5000);
+		// notifications.error('Connection to device lost', 5000);
 		telemetry.setRSSI({ rssi: 0, ssid: '' });
 	};
 
