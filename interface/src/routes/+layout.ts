@@ -9,7 +9,7 @@ export const load = (async ({ fetch }) => {
 	const item = await result.json();
 	return {
 		features: item,
-		title: 'ESP32-Sveltekit-Ligthswitch',
+		title: 'ESP32-Sveltekit-Lightswitch',
 		github: 'soylentOrange/esp32-sveltekit',
 		copyright: '2024 soylentOrange',
 		appName: 'ESP32 Sveltekit Lightswitch'
