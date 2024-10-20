@@ -6,7 +6,7 @@ hide:
 
 # ESP32 SvelteKit Lightswitch
 
-<div style="center">
+<div align="center">
 <img style="height:480px" src="/docs/media/Screenshot_light.png">
 </div>
 
@@ -18,7 +18,7 @@ A simple ESP32 based IoT project with a feature-rich, beautiful, and responsive 
 
 ## Hardware
 
-<div style="center">
+<div align="center">
 <img style="height:480px" src="/docs/media/boards/wemos_D1_Mini_ESP32/wemos_D1_Mini_ESP32_pinout.png">
 </div>
 
