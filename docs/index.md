@@ -4,20 +4,17 @@ hide:
   - toc
 ---
 
-# ESP32 SvelteKit - Create Amazing IoT Projects
+# ESP32 SvelteKit Lightswitch
 
 <div style="flex">
-<img src="media/Screenshot_light.png" style="height:480px"> 
-<img src="media/Screenshot_mobile.png" style="height:480px"> 
+<img src="/docs/media/Screenshot_light.png" style="height:320px"> 
 </div>
 
-A simple and extensible framework for ESP32 based IoT projects with a feature-rich, beautiful, and responsive front-end build with [Sveltekit](https://kit.svelte.dev/), [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/). This is a project template to get you started in no time backed by a powerful back end service, an amazing front end served from the ESP32 and an easy to use build chain to get everything going.
-
-It was forked from the fabulous [rjwats/esp8266-react](https://github.com/rjwats/esp8266-react) project, from where it inherited the mighty back end services.
+A simple ESP32 based IoT project with a feature-rich, beautiful, and responsive front-end build with [Sveltekit](https://kit.svelte.dev/), [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/). This project was generated from the great [ESP32-sveltekit template](https://github.com/theelims/ESP32-sveltekit) by [elims](https://github.com/theelims).
 
 !!! info
 
-    This template repository is not meant to be used stand alone. If you're just looking for a WiFi manager there are plenty of options available. This is a starting point when you need a rich web UI.
+    This project is just a bare minimum functional example. It is indended as a starting point for further projects in need of a rich web UI.
 
 ## Features
 

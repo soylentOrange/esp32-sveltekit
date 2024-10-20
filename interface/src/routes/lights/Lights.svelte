@@ -5,7 +5,6 @@
 	import { notifications } from '$lib/components/toasts/notifications';
 	import SettingsCard from '$lib/components/SettingsCard.svelte';
 	import Light from '~icons/tabler/bulb';
-	import Info from '~icons/tabler/info-circle';
 	import Save from '~icons/tabler/device-floppy';
 	import Reload from '~icons/tabler/reload';
 	import { socket } from '$lib/stores/socket';
@@ -68,12 +67,7 @@
 	<Light slot="icon" class="lex-shrink-0 mr-2 h-6 w-6 self-end" />
 	<span slot="title">Light State</span>
 	<div class="w-full">
-		<h1 class="text-xl font-semibold">REST Example</h1>
-		<div class="alert alert-info my-2 shadow-lg">
-			<Info class="h-6 w-6 flex-shrink-0 stroke-current" />
-			<span>The form below controls the LED via the RESTful service exposed by the ESP device.</span
-			>
-		</div>
+		<h1 class="text-xl font-semibold">Switch via REST</h1>
 		<div class="flex flex-row flex-wrap justify-between gap-x-2">
 			<div class="form-control w-52">
 				<label class="label cursor-pointer">
@@ -90,14 +84,7 @@
 			>
 		</div>
 		<div class="divider" />
-		<h1 class="text-xl font-semibold">Event Socket Example</h1>
-		<div class="alert alert-info my-2 shadow-lg">
-			<Info class="h-6 w-6 flex-shrink-0 stroke-current" />
-			<span
-				>The switch below controls the LED via the event system which uses WebSocket under the hood.
-				It will automatically update whenever the LED state changes.</span
-			>
-		</div>
+		<h1 class="text-xl font-semibold">Switch via Event Socket</h1>
 		<div class="form-control w-52">
 			<label class="label cursor-pointer">
 				<span class="">Light State?</span>

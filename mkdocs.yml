@@ -1,4 +1,4 @@
-site_name: ESP32 SvelteKit
+site_name: ESP32 Sveltekit Lightswitch
 
 nav:
   - Home: index.md
@@ -16,11 +16,11 @@ nav:
 
 site_author: elims
 site_description: >-
-  A simple, secure and extensible framework for IoT projects on ESP32 platforms with responsive Sveltekit front-end built with TailwindCSS and DaisyUI.
+  ESP32 based IoT project with a feature-rich, beautiful, and responsive front-end build with Sveltekit, Tailwind CSS and DaisyUI.
 
 # Repository
-repo_name: theelims/ESP32-sveltekit
-repo_url: https://github.com/theelims/ESP32-sveltekit
+repo_name: soylentOrange/esp32-sveltekit
+repo_url: https://github.com/soylentOrange/esp32-sveltekit
 
 theme:
   name: material
@@ -77,7 +77,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/theelims/
+      link: https://github.com/soylentOrange/
   consent:
     title: Cookie consent
     description: >-
@@ -94,5 +94,5 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
 copyright: |
-  Copyright &copy; 2024 by <a href="https://github.com/theelims"  target="_blank" rel="noopener">elims</a> -
+  Copyright &copy; 2024 by <a href="https://github.com/soylentOrange"  target="_blank" rel="noopener">soylentOrange</a> -
   <a href="#__consent">Change cookie settings</a>
