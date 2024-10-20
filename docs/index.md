@@ -7,7 +7,7 @@ hide:
 # ESP32 SvelteKit Lightswitch
 
 <div align="center">
-<img style="height:480px" src="/docs/media/Screenshot_light.png">
+<img src="media/Screenshot_light.png" style="height:480px"> 
 </div>
 
 A simple ESP32 based IoT project with a feature-rich, beautiful, and responsive front-end build with [Sveltekit](https://kit.svelte.dev/), [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/). This project was generated from the great [ESP32-sveltekit template](https://github.com/theelims/ESP32-sveltekit) by [elims](https://github.com/theelims).
@@ -19,7 +19,7 @@ A simple ESP32 based IoT project with a feature-rich, beautiful, and responsive 
 ## Hardware
 
 <div align="center">
-<img style="height:480px" src="/docs/media/boards/wemos_D1_Mini_ESP32/wemos_D1_Mini_ESP32_pinout.png">
+<img src="media/boards/wemos_D1_Mini_ESP32/wemos_D1_Mini_ESP32_pinout.png" style="height:480px">
 </div>
 
 Tested on [wemos_d1_mini32 board](https://www.wemos.cc/en/latest/). The board is discontinued by Wemos, but several clones are being offered with very low pricetags.
