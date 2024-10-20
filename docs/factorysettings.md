@@ -1,4 +1,4 @@
-# Build Process
+# Factory Settings
 
 The build process is controlled by [platformio.ini](https://github.com/theelims/ESP32-sveltekit/platformio.ini) and automates the build of the front end website with Vite as well as the binary compilation for the ESP32 firmware. Whenever PlatformIO is building a new binary it will call the python script [build_interface.py](https://github.com/theelims/ESP32-sveltekit/scripts/build_interface.py) to action. It will check the frontend files for changes. If necessary it will start the Vite build and gzip the resulting files either to the `data/` directory or embed them into a header file. In case the WWW files go into a LITTLEFS partition a file system image for the flash is created for the default build environment and upload to the ESP32.
 

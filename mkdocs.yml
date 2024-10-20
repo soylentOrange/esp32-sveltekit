@@ -2,21 +2,18 @@ site_name: ESP32 Sveltekit Lightswitch
 
 nav:
   - Home: index.md
-  - "Build Tools":
-      - gettingstarted.md
-      - buildprocess.md
-  - "Front End":
-      - sveltekit.md
-      - structure.md
-      - stores.md
-      - components.md
-  - "Back End":
+  - "Factory Settings":
+      - factorysettings.md
+  - "Configuration":
+      - platformio.md
+      - esp32sveltekit.md
+  - "Customization":
       - statefulservice.md
       - restfulapi.md
 
-site_author: elims
+site_author: soylentOrange
 site_description: >-
-  ESP32 based IoT project with a feature-rich, beautiful, and responsive front-end build with Sveltekit, Tailwind CSS and DaisyUI.
+  ESP32 based IoT project with a feature-rich, beautiful, and responsive front-end build with Sveltekit, Tailwind CSS and DaisyUI generated from the great ESP32-sveltekit template by elims.
 
 # Repository
 repo_name: soylentOrange/esp32-sveltekit
