@@ -18,7 +18,7 @@ The credentials are simply:
 - guest/guest
 - admin/admin
 
-The JWT secret used to sign authentication tokens is generated randomly. You can look look it up in the users menu:
+The JWT secret used to sign authentication tokens is generated randomly. You can find it in the Users menu:
 
 <figure markdown="span">
   ![Screenshot_users](media/Screenshot_users.png){ height="320" width="490" }
