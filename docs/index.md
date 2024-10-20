@@ -19,11 +19,15 @@ A simple ESP32 based IoT project with a feature-rich, beautiful, and responsive 
 ## Hardware
 
 <div style="flex">
-<img src="media/boards/wemos_D1_Mini_ESP32.png" style="height:480px"> 
-<img src="media/boards/wemos_D1_Mini_ESP32_pinout.png" style="height:480px"> 
+<img src="docs/media/boards/wemos_D1_Mini_ESP32/wemos_D1_Mini_ESP32.png" style="height:480px"> 
+<img src="docs/media/boards/wemos_D1_Mini_ESP32/wemos_D1_Mini_ESP32_pinout.png" style="height:480px"> 
 </div>
 
-Tested on (wemos_d1_mini32 board)[https://www.wemos.cc/en/latest/]. The board is discontinued by Wemos, but several clones are being offered with very low pricetags.
+Tested on [wemos_d1_mini32 board](https://www.wemos.cc/en/latest/). The board is discontinued by Wemos, but several clones are being offered with very low pricetags.
+
+!!! info
+
+    The onboard-LED is connected to GPIO-02.
 
 ## Visit the ESP32-sveltekit Project Site
 
