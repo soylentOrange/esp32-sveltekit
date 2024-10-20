@@ -37,15 +37,15 @@
 #endif
 
 #ifndef FACTORY_AP_LOCAL_IP
-#define FACTORY_AP_LOCAL_IP "192.168.4.1"
+#define FACTORY_AP_LOCAL_IP (String) "192.168.4.1"
 #endif
 
 #ifndef FACTORY_AP_GATEWAY_IP
-#define FACTORY_AP_GATEWAY_IP "192.168.4.1"
+#define FACTORY_AP_GATEWAY_IP (String) "192.168.4.1"
 #endif
 
 #ifndef FACTORY_AP_SUBNET_MASK
-#define FACTORY_AP_SUBNET_MASK "255.255.255.0"
+#define FACTORY_AP_SUBNET_MASK (String) "255.255.255.0"
 #endif
 
 #ifndef FACTORY_AP_CHANNEL
