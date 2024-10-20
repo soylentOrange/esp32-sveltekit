@@ -10,6 +10,10 @@ hide:
 <img src="media/Screenshot_light.png" style="height:480px"> 
 </div>
 
+<figure markdown="span">
+  ![Screenshot_light](media/Screenshot_light.png){ height="480" }
+</figure>
+
 A simple ESP32 based IoT project with a feature-rich, beautiful, and responsive front-end build with [Sveltekit](https://kit.svelte.dev/), [TailwindCSS](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/). This project was generated from the great [ESP32-sveltekit template](https://github.com/theelims/ESP32-sveltekit) by [elims](https://github.com/theelims).
 
 !!! info
