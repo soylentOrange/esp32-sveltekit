@@ -1,5 +1,33 @@
 # Developing with the Framework
 
+interface/package.json
+interface/package-lock.json
+interface/static/manifest.json
+
+
+Installing Node.js with nvm
+nvm (Node Version Manager) allows you to manage multiple Node.js versions. It’s especially useful for projects requiring different Node.js versions.
+
+Installing nvm 
+see: https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
+
+You can list available versions using ls-remote:
+
+nvm ls-remote
+
+To install a specific version of node:
+
+nvm install v20.18.0 # or 16.3.0, 12.22.1, etc
+
+Using nvm to Install Node.js
+Install the latest Node.js version:
+nvm install node
+To install a specific Node.js version, use:
+nvm install [version]
+Switch between installed Node.js versions with:
+nvm use [version]
+
+
 The back end is a set of REST endpoints hosted by a [PsychicHttp](https://github.com/hoeken/PsychicHttp) instance. The ['lib/framework'](https://github.com/theelims/ESP32-sveltekit/blob/main/lib/framework) directory contains the majority of the back end code. The framework contains a number of useful utility classes which you can use when extending it. The project also comes with a demo project to give you some help getting started.
 
 The framework's source is split up by feature, for example [WiFiScanner.h](https://github.com/theelims/ESP32-sveltekit/blob/main/lib/framework/WiFiScanner.h) implements the end points for scanning for available networks where as [WiFiSettingsService.h](https://github.com/theelims/ESP32-sveltekit/blob/main/lib/framework/WiFiSettingsService.h) handles configuring the WiFi settings and managing the WiFi connection.

@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Factory Settings
 
 The factory default settings, either after flashing the binary to the board for the first time or after applying from the System Status menu are managed in [factory_setting.ini](https://github.com/soylentOrange/esp32-sveltekit/blob/main/factory_settings.ini).
