@@ -105,7 +105,7 @@ void ESP32SvelteKit::begin()
     _server->onNotFound([](PsychicRequest *request)
                         {
         if (request->method() == HTTP_GET) {
-            PsychicFileResponse response(request, ESPFS, "/www/index.html", "text/html");
+            PsychicFileResponse response(request, ESPFS, "/www/index.html", "text/event-stream");
             return response.send();
             // String url = "http://" + request->host() + "/index.html";
             // request->redirect(url.c_str());
